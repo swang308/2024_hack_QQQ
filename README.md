@@ -1,7 +1,9 @@
+Seneca Hosuing 2024 Hackathon:
+
 resource:
 https://seneca-my.sharepoint.com/:w:/g/personal/swang308_myseneca_ca/ERJVVBb8j4hNjFaiVo8uvSIBIVLC4kkLVK8gIYhKHHD-eg?e=b12w6k
 
-hliao25@myseneca.ca 
+Hsien-Ting, Liao 123175226 hliao25@myseneca.ca 
 
 Rong Chen 132356221 rchen104@myseneca.ca 
 
