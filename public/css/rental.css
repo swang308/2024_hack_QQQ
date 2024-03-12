@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #80BCBD;
+    color: #333; /* Text color */
+    line-height: 1.6; /* Adjust line height for better readability */
+    padding: 10px; /* Match the body padding */
+    margin: 20;
+    
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: Georgia, serif;
+    color: #f8f3f3;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+ 
+}
+
+
+h2, h3, h4 {
+    color: #333; /* Dark gray for headings */
+}
+
+h2 {
+    border-bottom: 2px solid #ccc; /* Added a border bottom for section headings */
+
+    color: #80BCBD;
+    font-size: 24px; /* Adjust size for main headings */
+    margin-bottom: 20px; /* Spacing after headings */
+}
+
+h3 {
+    color:#758f7e;
+    font-size: 20px; /* Adjust size for subheadings */
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 18px; /* Adjust size for lower-level headings */
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px; /* Spacing after paragraphs */
+}
+
+ul {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0;
+    margin-bottom: 20px; /* Spacing after lists */
+}
+
+ul li {
+    position: relative;
+    padding-left: 20px; /* Space for custom bullet */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+ul li::before {
+    content: '•'; /* Custom bullet point */
+    color: #007bff; /* Bullet point color */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.article a {
+    display: block;
+    background-color: #e6f7ff; /* Background color for article links */
+    color: #007bff; /* Text color for links */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between articles */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.article a:hover {
+    background-color: #d0eaff; /* Lighter background on hover */
+}
+
+section {
+    padding: 40px;
+    margin: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Added rounded corners */
+}
+.h1p{
+    font-family: serif;
+    text-align: center;
+    font-size: 25px;
+    color: #fefefe;
+    padding: 5% 11%;;
+    line-height: 1.4;
+}

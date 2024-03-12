@@ -1,0 +1,133 @@
+body {
+    font-family: serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #80BCBD;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Georgia, serif;
+    color: #f8f3f3;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+ 
+}
+
+
+.h1p{
+    text-align: center;
+    font-size: 25px;
+    color: #fefefe;
+    padding: 5% 11%;;
+    line-height: 1.4;
+}
+
+section {
+    padding: 40px;
+    margin: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Added rounded corners */
+}
+
+section p{
+    color : black
+}
+
+section h2 {
+    font-size: 30px;
+    color: #80BCBD;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc; /* Added a border bottom for section headings */
+    padding-bottom: 10px; /* Added spacing below section headings */
+}
+section h3 {
+    font-size: 25px;
+    color: #80BCBD;
+    margin-bottom: 5px;
+    padding-bottom: 2px; /* Added spacing below section headings */
+}
+.h3p{
+    font-size: 18px;
+    padding: 0.1% 1%;;
+    line-height: 1.4;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+section a {
+    font-size: 20px;
+    color: #5066a2;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Added transition for smoother hover effect */
+}
+
+section a:hover {
+    color: #b0c24b;
+}
+
+section i {
+    color: #ff0000;
+}
+
+.h3i{
+    border: 2px dashed #805430;
+    max-width: 100%;
+    height: auto;
+}
+
+.h2p{
+    font-size: 20px;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
